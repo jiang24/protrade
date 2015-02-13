@@ -4,6 +4,46 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
+.cols li{
+float:left;
+}
+
+.cols h3{
+margin-bottom:7px;
+color:#1e3a6a;
+}
+
+.col1 {
+width:33%;
+list-style-type:none;
+}
+.col1 h3 {
+padding-left:28px;
+}
+
+.col2 {
+width:33%;
+margin-left:7px;
+padding-left:30px;
+list-style-type:none;
+border-left-style:groove;
+border-width:1px;
+}
+.col3 {
+width:33%;
+list-style-type:none;
+border-left-style:groove;
+border-width:1px;
+padding-left:29px;
+}
+
+.col1 ul {
+padding-left:30px;
+}
+
+
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -96,12 +136,11 @@ body{
 	width:100%;
 }
 .top-menu ul li a.active{
-	color:#c5f4ff;
-	background:#12a3d6;
+	color:#1e3a6a;
+	#background:#1e3a6a;
 	padding:40px 13px 38px 14px;
 	border-radius:0px;
 	position: relative;
-
 } 
 .sb-search {
 	width: 0%;
@@ -1011,7 +1050,6 @@ background: #F98561;
 .footer-bottom 
 {
 	 text-align: center;
-	 padding:2em 0 0 0;
 }
 .footer-bottom p 
 {
@@ -1019,19 +1057,16 @@ background: #F98561;
   	color: #f8f9fb;
   	font-weight: 200;
 }
-.footer-bottom p a 
+.footer-bottom p a
 {
    	margin-left: 10px;
 }
 .footer-bottom a
 {
 	color: #f98561;
-	
+
  }
-.footer-bottom a:hover
-{
-	color:#2190C2; 
-}
+
 /*-- portfoli page --*/
 .banner
 {
@@ -2271,8 +2306,8 @@ opacity: 0.5;
 	.col-md-3.about-grid {
 		float: left;
 		width: 50%;
-
 	}
+
 	.col-md-3.about-grid1 {
 		float: left;
 		width: 50%;
