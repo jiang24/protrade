@@ -11,7 +11,7 @@ float:left;
 
 .cols h3{
 margin-bottom:7px;
-color:#1e3a6a;
+color:#1E3A5A;
 }
 
 .col1 {
@@ -290,7 +290,7 @@ a.morebtn{
 	padding: 0.6em;
 	display: block;
 	margin: 0 auto;
-	width: 32%;
+	width: 17%;
 	color: #ffebca;
 	font-size: 20px;
 	text-decoration: none;
@@ -472,7 +472,7 @@ color: #f98561;
 }
 .ourportfoilo-head h3 {
 	float: left;
-	color: #f98561;
+	color: #1E3A5D;
 	font-size: 2.5em;
 	font-weight: 400;
 	font-family: 'Bree Serif', serif;
@@ -1089,8 +1089,8 @@ background: #F98561;
 }
 .portfolio-header h3 {
 	text-align: center;
-	font-size: 4.5em;
-	color: #12a3d6;
+	font-size: 2.5em;
+	color: #1E3A5A;
 	font-family: fantasy;
 	font-weight: 400;
 }
@@ -1526,7 +1526,7 @@ background: #F98561;
 .about-text h3 {
 	font-size: 3em;
 	text-transform: uppercase;
-	color: #2190C2;
+	color: #1E3A5A;
 	font-family: fantasy;
 	font-weight: 600;
 }
@@ -1538,8 +1538,11 @@ background: #F98561;
 	font-weight: 500;
 	line-height: 1.8em;
 	padding: 15px 0;
-
 }
+.about-text img{
+    width:100%;
+}
+
 .about-text p span {
 	color:#515862;
 	font-size:15.5px;
@@ -1552,11 +1555,11 @@ background: #F98561;
 	padding-bottom: 25px;
 }
 .good-design h3 {
-	font-size: 4em;
+	font-size: 3em;
 	text-transform: uppercase;
 	font-weight: 600;
 	font-family: fantasy;
-	color: #515862;
+	color: #1E3A5A;
 	margin-bottom: 25px;
 }
 .gooddesign-grids {
@@ -1679,7 +1682,7 @@ ul.nav {
 .contact-text h3 {
 	font-size: 3em;
 	text-transform: uppercase;
-	color: #2190C2;
+	color:#1E3A5A;
 	font-family: fantasy;
 	font-weight: 600;
 	margin-bottom: 20px;
@@ -2037,7 +2040,7 @@ opacity: 0.5;
 		padding-bottom: 30px;
 	}
 	a.morebtn {
-		width: 29%;
+		width: 17%;
 		font-size: 18px;
 	}
 	.ourservice-head {
@@ -3228,7 +3231,7 @@ opacity: 0.5;
 		padding-bottom: 3px;
 	}
 	a.morebtn {
-		width: 35%;
+		width: 17%;
 		margin-top: 10px;
 	}
 	ul.callbacks_tabs.callbacks1_tabs {

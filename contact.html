@@ -33,20 +33,22 @@
 </head>
 <body>
 
-				<div class="header">
+<?php
+echo "My first PHP script!";
+?>
+
+<div class="header">
 				 <div class="container">	
 				   <div class="logo">
-					<a href="index.html"><img src="images/logo.png" alt=""/></a>
+					<a href="index.html"><img src="images/logo1.png" alt=""/></a>
 				</div>
 					<div class="top-menu">
 						<span class="menu"></span>
 						<ul>
 							<li><a href="index.html">home</a></li>
-							<li><a href="portfolio.html">portfolio</a></li>
 							<li><a href="about.html">about</a></li>
-							<li><a class="active" href="contact.html">contact<lable><img src="images/line.png"></lable></a></li>
-							<li><a class="last" href="blog.html">blog</a></li>
-							</ul>
+							<li><a class="active" href="contact.html">contact us</a></li>
+						</ul>
 							</div>
 							<script>
 			$("span.menu").click(function(){
@@ -55,24 +57,7 @@
 			});
 		</script>
 		<!-- script-for-menu -->
-							<!-- start search-->
-				    <div class="search-box">
-					    <div id="sb-search" class="sb-search">
-							<form>
-								<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
-								<input class="sb-search-submit" type="submit" value="">
-								<span class="sb-icon-search"> </span>
-							</form>
-						</div>
-				    </div>
-					<!-- search-scripts -->
-					<script src="js/classie.js"></script>
-					<script src="js/uisearch.js"></script>
-						<script>
-							new UISearch( document.getElementById( 'sb-search' ) );
-						</script>
-					<!-- //search-scripts -->
-				<div class="clearfix"></div>
+
 			</div>
 
 		<!-- script-for-nav -->
@@ -98,13 +83,14 @@
 		  	<div class="contact-text">
 		  	<div class="container">
 		  		<h3>GET IN TOUCH</h3>
-		  		<p>Lorem ipsum dolor sit amet, dui ac bibendum fringilla, massa augue mattis enim, quis volutpat augue nisi vitae nibh. Proin nibh tortor, rutrum luctus euismod eu, rutrum eget nunc. Nam commodo tellus quis ante tempus quis auctor enim suscipit. Donec sit amet feugiat justo. Nulla vel nibh et erat consequat sollicitudin. Vivamus egestas erat ac arcu sagittis in tincidunt purus pharetra. Maecenas viverra suscipit arcu, ac adipiscing odio vehicula nec. Vestibulum non enim ac dui interdum tempus nam tortor odio.</p>
+		        <p>Send us your request today, get an response in 24 hours! </p>
                  </div>
                </div>
                <div class="contact-details">
                	<div class="container">
                		<div class="col-md-6 contactdetails-grid">
-               			<p>Lorem ipsum dolor sit amet, consectetur <span>*</span> sign amentu kurmanci.</p>
+
+                        <form action="MAILTO:inquiries@protradeconsulting.com" method="post" enctype="text/plain">
                			<h4>name <span>*</span><h4>
                			<input type="text">
                			<h4>email address <span>*</span><h4>
@@ -126,149 +112,57 @@
                				</div>
                				<input type="button" value="send">
                				</div>
+                        </form>
                		<div class="col-md-6 contactdetails-grid1">
                			<div class="contact-icons">
                				<div class="contact-icon">
-               					<i class="phone1"></i>
-               						<i class="home1"></i>
+
+
                						<i class="message1"></i>
                					</div>
                					<div class="contact-icon1">
-               						<p><span>Office:</span> +1 (000) 123-4567</p>
-               							<p><span>Mobil:</span> +1 (000) 123-4567</p>
-               								<p>Lorem ipsum dolar sit amet</p>
-                                    			<p>New York- United States</p>
-               										<a href="mail-to:hakan.ertann@gmail.com">hakan.ertann@gmail.com</a>
-                                    	 				<a href="#">www.hakan-ertan.com</a>
+
+                                    			<p>Beijing-China</p>
+               										<a href="mail-to:inquiries@protradeconsulting.com">inquiries@protradeconsulting.com</a>
+                                    	 				<a href="#">generalquestions@protradeconsulting.com</a>
 							</div>
                			</div>
                			<div class="google-map">
                				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3021.0814617966994!2d-73.96467908332265!3d40.782223218920294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1sen!2sin!4v1420805667126"></iframe>
                			</div>
-               			<h4>FOLLOW US ON SOCIAL MEDIA</h4>
-               			<div class="social-icons">
-               				
-               				<a href="#"><i class="icon1"></i></a>
-               				<a href="#"><i class="icon2"></i></a>
-               				<a href="#"><i class="icon3"></i></a>
-               				<a href="#"><i class="icon4"></i></a>
-               				<a href="#"><i class="icon5"></i></a>
-               				<a href="#"><i class="icon6"></i></a>
-               				</div>
+
                			<div class="clearfix"></div>
                		
                		</div>
                	</div>
             </div>
-				            <div class="footer">
-								<div class="container">
-									<div class="col-md-3 twitter-feeds">
-										<h3>twitter feeds</h3>
-										<div class="twitter-feed">
-										<p>Check out this great theme item</p>
-                                         <a href="#">http://tadjalskfj.com</a>
-                                          <p>2 weeks ago</p>
-                                          </div>
-                                          <div class="twitter-feed">
-                                          <p>Check out this great theme item</p>
-                                         <a href="#">http://tadjalskfj.com</a>
-                                          <p>2 weeks ago</p>
-                                          </div>
-                                          <div class="twitter-feed">
-                                          <p>Check out this great theme item</p>
-                                         <a href="#">http://tadjalskfj.com</a>
-                                          <p>2 weeks ago</p>
-									</div>
-									</div>
-									<div class="col-md-3 new-letter">
-										<h3>newsletter</h3>
-										<div class="new-letters">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies sagittis magna a comm. Ut eget eros mauris, urna.</p>
-										</div>
-										<h4>Your Email Address</h4>
-										<form>
-										<input type="text">
-										<input type="button" value="sign up">
-										</form>
-										</div>
-										<div class="col-md-3 recent-projects">
-											<h3>recent projects</h3>
-											
-												<div class="recent-project">
-											<div class="recent-img">
-												<img src="images/im1.jpg">
-												</div>
-												<div class="recent-text">
-													<p>Sketchy Business Card</p>
-                                                       <a href="#">http://tadjalskfj.com</a>
-                                                        <p>2 weeks ago</p>
-													</div>
-													<div class="clearfix"></div>
-													</div>
-													<div class="recent-project">
-													<div class="recent-img">
-												<img src="images/im2.jpg">
-												</div>
-												<div class="recent-text">
-													<p>Message Boards in Nature</p>
-                                                     <a href="#">http://tadjalskfj.com</a>
-                                                      <p>2 weeks ago</p>
-													</div>
-													<div class="clearfix"></div>
-													</div>
-													<div class="recent-project">
-													<div class="recent-img">
-												<img src="images/im3.jpg">
-												</div>
-												<div class="recent-text">
-													<p>Website Design Kit</p>
-													<a href="#">http://tadjalskfj.com</a>
-													<p>2 weeks ago</p>
-													</div>
-													<div class="clearfix"></div>
-													</div>
-												
-											</div>
-											<div class="col-md-3 contact">
-												<h3>contact</h3>
-												<ul>
-													<li><i class="phone"></i></li>
-														<li><p>1-000-000-0000</p>
-															<p>1-000-000-0000</p></li>
-												</ul>
-												<ul>
-													<li><i class="smartphone"></i></li>
-														<li><p>1-000-000-0000</p>
-															<p>1-000-000-0000</p></li>
-												</ul>
-												<ul>
-													<li><i class="message"></i></li>
-														<li><a href="#">bcdefg@hijs.dfh</a>
-                                                            <a href="#">fjashfaf@jkfs.ckd</a></li>
-												</ul>
-												</div>
-									<div class="clearfix"></div>
-									<div class="footer-bottom">
-				 		<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
-                 </div>
-                  <script type="text/javascript">
+                <div class="footer">
+                    <div class="container">
+
+                        <div class="footer-bottom">
+                            <p>Copyright &copy; 2015. Protrade All rights reserved. <a href="contact.html">Contact ProTrade Now.</a></p>
+                        </div>
+                        <script type="text/javascript">
 						$(document).ready(function() {
 							/*
 							var defaults = {
 					  			containerID: 'toTop', // fading element id
 								containerHoverID: 'toTopHover', // fading element hover id
 								scrollSpeed: 1200,
-								easingType: 'linear' 
+								easingType: 'linear'
 					 		};
 							*/
-							
+
 							$().UItoTop({ easingType: 'easeOutQuart' });
-							
+
 						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-                 </div>
-			</div>
+
+        </script>
+                        <a class="scroll" href="#home" id="toTop" style="display: block;"> <span id="toTopHover"
+                                                                                                 style="opacity: 1;"> </span></a>
+
+                    </div>
+                </div>
 <div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>
